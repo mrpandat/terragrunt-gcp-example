@@ -36,7 +36,7 @@ locals {
 # environments.
 # ---------------------------------------------------------------------------------------------------------------------
 inputs = {
-  name              = "mysql_${local.env}"
+  name              = "mysql-${local.env}"
   instance_class    = "db-f1-micro"
   # TODO: To avoid storing your DB password in the code, set it as the environment variable TF_VAR_master_password
 }
