@@ -45,12 +45,6 @@ remote_state {
   }
 }
 
-  // generate = {
-  //   path      = "backend.tf"
-  //   if_exists = "overwrite_terragrunt"
-  // }
-// }
-
 # ---------------------------------------------------------------------------------------------------------------------
 # GLOBAL PARAMETERS
 # These variables apply to all configurations in this subfolder. These are automatically merged into the child
